@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_fxi_anjana_ctask.script1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>script1</name>
+        <script><![CDATA[var script1 = Class.create();
+script1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'script1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-25 16:42:29</sys_created_on>
+        <sys_id>1e4a9d442530ac10f8774a4208d572b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>script1</sys_name>
+        <sys_package display_value="anjana_ctask" source="x_fxi_anjana_ctask">f3b99d402530ac10f8774a4208d572e2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="anjana_ctask">f3b99d402530ac10f8774a4208d572e2</sys_scope>
+        <sys_update_name>sys_script_include_1e4a9d442530ac10f8774a4208d572b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-25 16:42:29</sys_updated_on>
+    </sys_script_include>
+</record_update>
